@@ -1,0 +1,10 @@
+numpy
+pandas
+flask
+scikit-learn
+torch
+transformers
+nltk
+vncorenlp
+emoji
+json
