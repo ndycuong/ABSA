@@ -3,6 +3,7 @@
 
 * Download weight file: 
 https://husteduvn-my.sharepoint.com/:f:/g/personal/cuong_nd191714_sis_hust_edu_vn/EuboR4TBcWRLuaa0RTi3gR0BB2r81zK4RsV2B7FSN9Tqyg?e=HxTFa6<br />
+stored in model folder in python-server <br />
 * Install required packages: <br />
 pip install -r requirements.text <br />
 * Clone Vietnamese NLP toolkit: <br />
