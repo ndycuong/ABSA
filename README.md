@@ -1,4 +1,5 @@
-# WEB INTERFACE DEMO
+# WEB INTERFACE DEMO  
+Result folder contains image of demos : interface for predicting text input and for visualizing crawled data
 ## Installation
 
 * Download weight file: 
