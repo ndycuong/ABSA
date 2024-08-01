@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #c692aa;
+}
+
+/* h1 textarea {
+  font-size: 40px;
+   width: 80%;
+  height: 100px;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+} */
+
+
+textarea {
+  font-size: 1.5rem;
+  width: 80%;
+  height: 100px;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  height: 40px;
+  width: 150px;
+  margin: 0 10px;
+  padding: 10px 10px;
+  background-color: #EA5455;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+button:hover {
+  background-color: #609966;
+}
+.absa{
+  padding: 10px;
+}
+
+.sa{
+  padding: 10px;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-left: 5px solid #ccc;
+}
+
+.result p {
+  margin: 5px 0;
+  padding: 0;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.2em;
+  /* display: none; */
+}
+h2 {
+  text-align: left !important;
+}
+.result span {
+
+  font-size: 1.2em;
+}
+/*
+dashboard */
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.controls {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  justify-content: center;
+}
+.analyze-button-container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.legend {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+}
+.dashboard-content .h3-space {
+  margin-bottom: 1rem;
+}
+
+.charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns for pieChartData and chartData */
+  gap: 5rem;
+  width: 66.66%; /* 2/3 of the page width */
+}
+
+.full-width-chart {
+  grid-column: span 2; /* Span both columns for full-width charts */
+}
+
+.chart-container {
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+}
+.random-comment{
+  margin-bottom: 1rem;
+
+}
