@@ -1,5 +1,7 @@
-# WEB INTERFACE DEMO  
+## WEB INTERFACE DEMO  
 Result folder contains image of demos : interface for predicting text input and for visualizing crawled data
+## model
+Implement the model with some changes from the paper: https://ieeexplore.ieee.org/document/9865479   
 ## Installation
 
 * Download weight file: 
